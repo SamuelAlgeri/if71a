@@ -12,7 +12,18 @@ int main(){
     altura = 1.80;
     letra = 'S';
 
-    printf("idade: %i \nmatricula: %i \npeso: %.2f \naltura: %.2f \nletra: %c \n", idade, matricula, peso, altura, letra);
+    printf("\ndigite a sua idade: ");
+    scanf("%d", &idade);
+    printf("\ndigite a sua matricula: ");
+    scanf("%d", &matricula);
+    printf("\ndigite o seu peso: ");
+    scanf("%f", &peso);
+    printf("\ndigite a sua altura: ");
+    scanf("%f", &altura);
+    printf("\ndigite a sua letra: ");
+    scanf("%c", &letra);
+
+    printf("\nidade: %i \nmatricula: %i \npeso: %.2f \naltura: %.2f \nletra: %c \n", idade, matricula, peso, altura, letra);
 
     return 0;
 
