@@ -1,0 +1,49 @@
+# Executáveis
+*.out
+*.exe
+*.bin
+
+# Arquivos objeto
+*.o
+
+# Bibliotecas
+*.a
+*.so
+*.dll
+*.dylib
+
+# Arquivos de debug
+*.dSYM/
+*.su
+*.gcno
+*.gcda
+*.gcov
+
+# Core dumps
+core
+core.*
+*.core
+
+# Diretórios de build
+build/
+bin/
+obj/
+dist/
+
+# Arquivos temporários
+*.tmp
+*.temp
+*~
+.#*
+
+# Arquivos de IDE/editor
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# macOS
+.DS_Store
+
+# Windows
+Thumbs.db
