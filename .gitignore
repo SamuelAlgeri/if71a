@@ -47,29 +47,3 @@ dist/
 
 # Windows
 Thumbs.db
-
-# Arquivos objeto
-*.o
-
-# Executáveis
-bin/
-build/
-
-# Bibliotecas
-*.a
-*.so
-
-# Debug
-*.gcno
-*.gcda
-*.gcov
-
-# Core dumps
-core
-core.*
-
-# Editor
-.vscode/
-.idea/
-*.swp
-*~
