@@ -1,3 +1,6 @@
+/*6. Implemente um programa que leia 2 valores inteiros e armazene-os nas variáveis n1 e n2. Calcule a média entre n1 e
+n2, atribuindo o seu resultado na variável media. Imprima o valor de media. Qual a saída do seu programa para n1=2
+e n2=4? E para n1=2 e n2=3? Modifique o programa para que possa calcular e imprimir a média corretamente.*/
 #include <stdio.h>
 
     int n1, n2;

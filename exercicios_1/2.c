@@ -1,5 +1,6 @@
 #include <stdio.h>
-
+/* 2. Modifique o programa anterior para calcular e imprimir o valor no final do mês, considerando que há uma retirada
+(ret) cujo valor também deve ser lido pelo programa via teclado. */
 /* #define D 500.0
 #define R 1.0
 
