@@ -15,18 +15,20 @@ float dep;
 float rend;
 float rendimento;
 float resultado;
+float ret;
 
 int main (){
-    printf("Digite o valor do deposito: ");
+    printf("Digite o valor do deposito: R$ ");
     scanf("%f", &dep);
     printf("Digite o percentual do rendimento: ");
     scanf("%f", &rend);
-// Essa opção tem como vatangens nos casos em que quero montar um tipo de calculadora pois os valores não serão fixos e posso testar vários tipos de inputs
-// Já as desvantagens é que é utilizado um código maior e ocupa mais memória pois são necessárias 4 variáveis e não apenas 2 valores definidos
     rendimento = dep * rend/100;
     resultado = dep + rendimento;
     printf("Deposito: R$ %.2f\n", dep);
     printf("Rendimento: R$ %.2f\n", rendimento);
+    printf("Digite o valor da retirada: R$ ");
+    scanf("%f", &ret);
+    resultado = resultado - ret;
     printf("Final do mes: R$ %.2f\n", resultado); 
     printf("\n\n\n");
 
