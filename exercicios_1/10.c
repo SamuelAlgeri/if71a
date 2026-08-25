@@ -8,8 +8,10 @@ Exemplos de Entrada Exemplos de Saída
 */
 #include <stdio.h>
 
+# define pi  3.14159
+
 double raio, volume;
-double pi = 3.14159;
+
 
 int main(){
     
